@@ -1,11 +1,22 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import { Link } from 'gatsby'
 
 const NotFoundPage = () => (
   <Layout>
     <div>
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <section className="hero is-light is-fullheight">
+      <div className="hero-body">
+        <div className="container has-text-centered">
+          <h1 className="title mb-5">
+            Ups ser ut til at du har funnet en side som ikke eksisterer&hellip;
+          </h1>
+          <h2 className="subtitle">
+            Men ikke noe problem, vennligst gå til <Link to="/">startsiden</Link> og finn nyheter :-)
+          </h2>
+        </div>
+      </div>
+    </section>
     </div>
   </Layout>
 )

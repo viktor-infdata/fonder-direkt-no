@@ -1,7 +1,8 @@
 [build]
   publish = "public"
-  command = "npm run build"
-  functions = "lambda"
+  command = "gatsby info && gatsby build"
 [build.environment]
-  YARN_VERSION = "1.9.4"
+  NODE_ENV = "production"
+  NODE_VERSION = "10.15.1"
+  YARN_VERSION = "1.13.0"
   YARN_FLAGS = "--no-ignore-optional"

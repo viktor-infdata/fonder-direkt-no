@@ -1,10 +1,8 @@
-var proxy = require("http-proxy-middleware")
-
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
-    description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    title: 'Fonder Direkt',
+    description: 'Fonder Direkt er en plattform som produseres av Nyhetsbyrån Direkts fondsredaksjon der du kan finne informasjon, lese nyheter og ta del i kommunikasjon om fond.',
+    siteUrl: 'https://fonderdirekt.no',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -46,18 +44,21 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 2048,
+              maxWidth: 925,
+              quality: 85,
+              withWebp: true,
             },
+          },
+          {
+            resolve: "gatsby-remark-external-links",
           },
           {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
               destinationDir: 'static',
-            },
+            }
           },
+          'gatsby-remark-smartypants',
         ],
       },
     },
@@ -68,25 +69,126 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
+      resolve: 'gatsby-plugin-nprogress',
       options: {
-        develop: true, // Activates purging in npm run develop
-        purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
+        color: '#025c6b',
+        showSpinner: false,
       },
-    }, // must be after other CSS plugins
+    },
+    'gatsby-plugin-catch-links',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Fonder Direkt',
+        short_name: 'FonderDirekt',
+        start_url: '/',
+        background_color: '#037184',
+        theme_color: '#037184',
+        display: 'standalone',
+        icons: [
+          {
+            src: 'android-chrome-192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: 'android-chrome-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+        ],
+      },
+    },
+    'gatsby-plugin-remove-serviceworker',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://fonderdirekt.no',
+        sitemap: 'https://fonderdirekt.no/sitemap.xml',
+        policy: [{ userAgent: '*', disallow: '' }]
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-130679662-2',
+        anonymize: true,
+        siteSpeedSampleRate: 10,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-feed',
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.excerpt,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                })
+              })
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  limit: 1000,
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: {frontmatter: { templateKey: {regex: "/blog-post|video-post/"}}}
+                ) {
+                  edges {
+                    node {
+                      excerpt(pruneLength: 400)
+                      fields { slug }
+                      frontmatter {
+                        title
+                        date
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Fonder Direkt RSS Feed",
+          },
+        ],
+      },
+    },
+    'gatsby-plugin-purgecss', // must be after other CSS plugins
+    {
+      resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
+      options: {
+        // Fields to index
+        fields: [`title`, `tags`],
+        // How to resolve each field`s value for a supported node type
+        resolvers: {
+          // For any node of type MarkdownRemark, list how to resolve the fields` values
+          MarkdownRemark: {
+            title: node => node.frontmatter.title,
+            tags: node => node.frontmatter.tags,
+            slug: node => node.fields.slug,
+          },
+        },
+      },
+    },
+    'gatsby-plugin-netlify-cache',
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
-  // for avoiding CORS while developing Netlify Functions locally
-  // read more: https://www.gatsbyjs.org/docs/api-proxy/#advanced-proxying
-  developMiddleware: app => {
-    app.use(
-      "/.netlify/functions/",
-      proxy({
-        target: "http://localhost:9000",
-        pathRewrite: {
-          "/.netlify/functions/": "",
-        },
-      })
-    )
-  },
 }

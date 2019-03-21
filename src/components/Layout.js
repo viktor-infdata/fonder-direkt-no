@@ -1,54 +1,47 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Footer from '../components/Footer'
+
 import Navbar from '../components/Navbar'
-import './all.sass'
-import useSiteMetadata from './SiteMetadata'
+import Footer from '../components/Footer'
+import 'typeface-fjalla-one' //eslint-disable-line
+import 'typeface-merriweather' //eslint-disable-line
+import './all.scss'
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
-  return (
-    <div>
-      <Helmet>
-        <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
-
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/img/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href="/img/favicon-32x32.png"
-          sizes="32x32"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href="/img/favicon-16x16.png"
-          sizes="16x16"
-        />
-
-        <link
-          rel="mask-icon"
-          href="/img/safari-pinned-tab.svg"
-          color="#ff4400"
-        />
-        <meta name="theme-color" content="#fff" />
-
-        <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
-        <meta property="og:image" content="/img/og-image.jpg" />
-      </Helmet>
-      <Navbar />
-      <div>{children}</div>
+const TemplateWrapper = ({ children }) => (
+  <React.Fragment>
+    <Helmet
+      title="Fonder Direkt"
+    >
+      <html lang="no" />
+      <meta name="description" content="Fonder Direkt er en plattform som produseres av Nyhetsbyrån Direkts fondsredaksjon der du kan finne informasjon, lese nyheter og ta del i kommunikasjon om fond." />
+      <meta name="copyright" content="Fonder Direkt er en del av Aktiebolaget Nyhetsbyrån Direkt" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v2" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v2" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v2"  />
+      <link rel="mask-icon" href="/safari-pinned-tab.svg?v2" color="#037184" />
+      <link rel="shortcut icon" href="/favicon.ico?v2" />
+      <meta name="msapplication-TileColor" content="#00aba9" />
+      <meta name="msapplication-config" content="/browserconfig.xml" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="https://fonderdirekt.no/og-image.png?v2" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="1200" />
+      <meta property="og:title" content="Fonder Direkt" />
+      <meta property="og:description" content="Fonder Direkt er en plattform som produseres av Nyhetsbyrån Direkts fondsredaksjon der du kan finne informasjon, lese nyheter og ta del i kommunikasjon om fond." />
+      <meta property="og:url" content="https://fonderdirekt.no" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://fonderdirekt.no/og-image.png?v2" />
+      <meta name="twitter:site" content="@fonder_direkt" />
+      <meta name="google-site-verification" content="BhUA-9McyW4lE9nqkBPjgCI7UVWzzbrx00Hr_bwEnKA" />
+    </Helmet>
+    <div className="page">
+      <div className="main">
+        <Navbar />
+        <React.Fragment>{children}</React.Fragment>
+      </div>
       <Footer />
     </div>
-  )
-}
+  </React.Fragment>
+)
 
 export default TemplateWrapper
