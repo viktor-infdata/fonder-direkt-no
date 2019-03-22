@@ -41,7 +41,7 @@ class TagRoute extends React.Component {
                 <h3 className="title is-size-6 is-bold-light">{tagHeader}</h3>
                 <ul className="taglist">{postLinks}</ul>
                 <p>
-                  <Link to="/tagger/">Bla gjennom alla tagger</Link>
+                  <Link to="/tagger/">Bla gjennom alle tagger</Link>
                 </p>
               </div>
             </div>

@@ -18,7 +18,7 @@ Våre dyktige og høyt ansette journalister arbeider hardt for å skape relevant
 
 ### BLI EN PARTNER
 
-OOm du representerer et fondsselskap, kapitalforvalter eller formueforvalter/private banking-selskap og vil diskutere et mulig partnerskap med oss, vennligst ta kontakt på: <a href='mailto&#58;fo&#110;dr%&#54;5d&#97;%&#54;Btio&#110;en&#64;di%7&#50;ek%7&#52;&#37;2Es%6&#53;'>&#102;&#111;n&#100;re&#100;akt&#105;o&#110;&#101;n&#64;direkt&#46;&#115;e</a>
+Om du representerer et fondsselskap, kapitalforvalter eller formueforvalter/private banking-selskap og vil diskutere et mulig partnerskap med oss, vennligst ta kontakt på: <a href='mailto&#58;fo&#110;dr%&#54;5d&#97;%&#54;Btio&#110;en&#64;di%7&#50;ek%7&#52;&#37;2Es%6&#53;'>&#102;&#111;n&#100;re&#100;akt&#105;o&#110;&#101;n&#64;direkt&#46;&#115;e</a>
 
 <div class="embed-responsive embed-responsive-16by9 mb-3"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zz6C0pahNxU?rel=0" allowfullscreen></iframe></div>
 
