@@ -1,4 +1,4 @@
-# Fonder Direkt
+# Fonder Direkt No
 
 **Note:** Site is based on Gatsby + Netlify CMS Starter
 
@@ -14,10 +14,10 @@
 $ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
 $ cd [REPO_NAME]
 $ yarn
-$ npm run clean && gatsby develop
+$ yarn run clean && gatsby develop
 ```
 To test the CMS locally, you'll need run a production build of the site:
 ```
-$ npm run build
-$ npm run serve
+$ yarn run build
+$ yarn run serve
 ```
