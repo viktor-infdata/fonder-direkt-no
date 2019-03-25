@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Fonder Direkt',
-    description: 'Fonder Direkt er en plattform som produseres av Nyhetsbyrån Direkts fondsredaksjon der du kan finne informasjon, lese nyheter og ta del i kommunikasjon om fond.',
+    description:
+      'Fonder Direkt er en plattform som produseres av Nyhetsbyrån Direkts fondsredaksjon der du kan finne informasjon, lese nyheter og ta del i kommunikasjon om fond.',
     siteUrl: 'https://fonderdirekt.no',
   },
   plugins: [
@@ -43,13 +44,13 @@ module.exports = {
             },
           },
           {
-            resolve: "gatsby-remark-external-links",
+            resolve: 'gatsby-remark-external-links',
           },
           {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
               destinationDir: 'static',
-            }
+            },
           },
           'gatsby-remark-smartypants',
         ],
@@ -101,8 +102,8 @@ module.exports = {
       options: {
         host: 'https://fonderdirekt.no',
         sitemap: 'https://fonderdirekt.no/sitemap.xml',
-        policy: [{ userAgent: '*', disallow: '' }]
-      }
+        policy: [{ userAgent: '*', disallow: '' }],
+      },
     },
     {
       resolve: 'gatsby-plugin-google-analytics',
@@ -143,7 +144,7 @@ module.exports = {
                 allMarkdownRemark(
                   limit: 1000,
                   sort: { order: DESC, fields: [frontmatter___date] },
-                  filter: {frontmatter: { templateKey: {regex: "/blog-post|video-post/"}}}
+                  filter: {frontmatter: { templateKey: {regex: "/blog-post|video-post|education-post/"}}}
                 ) {
                   edges {
                     node {
@@ -158,8 +159,8 @@ module.exports = {
                 }
               }
             `,
-            output: "/rss.xml",
-            title: "Fonder Direkt RSS Feed",
+            output: '/rss.xml',
+            title: 'Fonder Direkt RSS Feed',
           },
         ],
       },

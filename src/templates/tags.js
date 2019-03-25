@@ -11,9 +11,13 @@ class TagRoute extends React.Component {
         <h2 className="is-size-5">
           <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link>
           <span className="has-text-grey"> &bull; </span>
-          <small className="has-text-grey"><time dateTime={post.node.frontmatter.date}>{post.node.frontmatter.date}</time></small>
-        </h2><hr />
-        
+          <small className="has-text-grey">
+            <time dateTime={post.node.frontmatter.date}>
+              {post.node.frontmatter.date}
+            </time>
+          </small>
+        </h2>
+        <hr />
       </li>
     ))
     const tag = this.props.pageContext.tag
@@ -27,17 +31,23 @@ class TagRoute extends React.Component {
       <Layout>
         <section className="section">
           <Helmet title={`${tag} | ${title}`}>
-            <meta name="description" content={`Nyheter merket med ${tag} på Fonder Direkt, en plattform hvor du kan finne informasjon, lese nyheter og delta i kommunikasjon om fond.`} />
+            <meta
+              name="description"
+              content={`Nyheter merket med ${tag} på Fonder Direkt, en plattform hvor du kan finne informasjon, lese nyheter og delta i kommunikasjon om fond.`}
+            />
             <meta property="og:title" content={`${tag} | ${title}`} />
-            <meta property="og:url" content={`https://fonderdirekt.no/tagger/${tag}/`} />
-            <meta property="og:description" content={`Nyheter merket med ${tag} på Fonder Direkt, en plattform hvor du kan finne informasjon, lese nyheter og delta i kommunikasjon om fond.`} />
+            <meta
+              property="og:url"
+              content={`https://fonderdirekt.no/tagger/${tag}/`}
+            />
+            <meta
+              property="og:description"
+              content={`Nyheter merket med ${tag} på Fonder Direkt, en plattform hvor du kan finne informasjon, lese nyheter og delta i kommunikasjon om fond.`}
+            />
           </Helmet>
           <div className="container">
             <div className="columns is-centered">
-              <div
-                className="column is-8"
-                style={{ marginBottom: '6rem' }}
-              >
+              <div className="column is-8" style={{ marginBottom: '6rem' }}>
                 <h3 className="title is-size-6 is-bold-light">{tagHeader}</h3>
                 <ul className="taglist">{postLinks}</ul>
                 <p>
