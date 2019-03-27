@@ -346,13 +346,6 @@ export const pageQuery = graphql`
             sponsored
             featured
             english
-            image {
-              childImageSharp {
-                fluid(maxWidth: 888, quality: 85) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-              }
-            }
           }
         }
       }
@@ -377,13 +370,6 @@ export const pageQuery = graphql`
             sponsored
             featured
             english
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1016, quality: 85) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-              }
-            }
           }
         }
       }

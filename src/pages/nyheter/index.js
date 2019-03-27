@@ -180,13 +180,6 @@ export const pageQuery = graphql`
             videoId
             date(formatString: "YYYY-MM-DD")
             sponsored
-            image {
-              childImageSharp {
-                fluid(maxWidth: 888, quality: 85) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-              }
-            }
           }
         }
       }

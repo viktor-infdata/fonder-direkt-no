@@ -3,6 +3,7 @@ templateKey: education-post
 videoId: vcgXh2Dt93M
 title: Hållbarhetssnack med penningtvättsexperten Martin Nordh
 date: 2019-03-07T15:10:59.427Z
+image: /img/brexit.jpg
 featured: false
 tags:
   - Hållbarhetssnack

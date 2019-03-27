@@ -217,13 +217,6 @@ export const pageQuery = graphql`
             templateKey
             videoId
             english
-            image {
-              childImageSharp {
-                fluid(maxWidth: 697, quality: 85) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-              }
-            }
             date(formatString: "YYYY-MM-DD")
             sponsored
           }
