@@ -1,7 +1,7 @@
 ---
 templateKey: education-post
 videoId: 6kOaYm-AADM
-title: Hållbarhetssnack med ESG-analytikern Anita Lindberg
+title: Hållbarhetssnakk med ESG-analytikern Anita Lindberg
 date: 2019-02-20T15:06:18.441Z
 featured: true
 tags:
@@ -9,4 +9,6 @@ tags:
   - ESG
   - Anita Lindberg
 ---
-I tredje avsnittet av Hållbarhetssnack träffar Kajsa ESG-analytikern Anita Lindberg och får hjälp med att reda ut vad som egentligen menas med social hållbarhet. Dessutom får vi reda på hur det kan gå till när fondförvaltare gör "ESG-screenings".
+I tredje episode av Hållbarhetssnakktreffer Kajsa ESG-analytikern Anita Lindberg og får hjelp til å utrede hva som egentlig menes med sosial bærkraft. 
+
+Dessuten får vi rede på hvordan  fondsforvalteren gjør "ESG-screenings"
