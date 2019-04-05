@@ -1,13 +1,14 @@
 ---
 templateKey: education-post
 videoId: 4ilQ4oSIxxY
-title: 'Hållbarhetssnack med sparekonomen Johanna Kull'
+soundCloudId: '601390122'
+title: Hållbarhetssnakk med spareøkonomen Johanna Kull
 date: 2019-01-23T09:16:33.387Z
-sponsored: false
 featured: true
 tags:
   - Hållbarhetssnack
   - ESG
   - Johanna Kull
 ---
-I första avsnittet av Hållbarhetssnack intervjuade vi sparekonomen och inspiratören Johanna Kull. Vi pratade bland annat om vad som menas med ESG, hållbara fonder och fick ta del av Johannas bästa tips för att spara hållbart.
+I første avsnitt av Hållbarhetssnakk intervjuet vi spareøkonomen og inspiratøren Johanna Kull. 
+Vi pratet blant annet om hva som menes med ESG, bærekraftige fond og fikk ta del i Johannas beste tips for å spare bærekraftig
