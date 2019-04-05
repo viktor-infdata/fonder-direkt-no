@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-# https://fonderdirekt-no.netlify.com/* https://fonderdirekt.no/:splat 301!
+https://fonderdirekt-no.netlify.com/* https://fonderdirekt.no/:splat 301!
