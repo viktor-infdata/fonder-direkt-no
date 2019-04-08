@@ -4,6 +4,8 @@ title: 'Finans: Alder behøver ikke å kvele konjunkturen - Landeborn'
 date: 2018-08-31T08:03:06.268Z
 sponsored: false
 featured: false
+tags:
+  - Landeborn
 ---
 OSLO (Fondene TDN Direkt) Den nåværende konjunktursykelen har vart i ni år og to måneder, noe som er lengre enn de vanlige syv årene og følgelig taler for at de gode tidene går mot slutten. Man må allikevel se på flere faktorer enn konjunkturoppgangens lengde for å bedømme de økonomiske utsiktene, sa seniorstrateg Maria Landeborn i Danske Bank ved Danske Invests årlige plasseringsevent denne uken.
 
