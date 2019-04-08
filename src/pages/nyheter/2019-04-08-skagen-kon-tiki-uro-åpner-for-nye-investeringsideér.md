@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: 'SKAGEN Kon-Tiki: uro åpner for nye investeringsideér.'
 date: 2018-08-28T08:00:34.848Z
-sponsored: false
+sponsored: true
 featured: false
 tags:
   - Skagen
