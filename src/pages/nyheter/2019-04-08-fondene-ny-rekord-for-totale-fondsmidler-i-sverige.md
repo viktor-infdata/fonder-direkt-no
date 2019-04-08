@@ -4,6 +4,8 @@ title: 'Fondene: Ny rekord for totale fondsmidler i Sverige'
 date: 2018-09-10T08:07:43.103Z
 sponsored: false
 featured: false
+tags:
+  - Gustav Sjöholm
 ---
 OSLO (Fondene TDN Direkt) Aksjefondsparingen i Sverige noterte seg for et nettoinnskudd på 4,5 milliarder kroner i august, og den samlede fondsbeholdningen økte med 130 milliarder til rekordhøye 4.434 milliarder kroner.
 
