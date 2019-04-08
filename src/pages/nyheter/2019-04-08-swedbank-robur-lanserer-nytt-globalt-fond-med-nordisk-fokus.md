@@ -1,11 +1,11 @@
 ---
 templateKey: blog-post
 title: 'Swedbank Robur: Lanserer nytt globalt fond med nordisk fokus'
-date: 2018-09-06T08:04:15.807Z
+date: 2019-04-08T08:06:08.879Z
 sponsored: false
 featured: false
 tags:
-  - Swedbank
+  - Swedbank Robur
 ---
 OSLO (Fondene TDN Direkt) Kapitalforvalteren Swedbank Robur lanserer et nytt fond kalt Swedbank Robur Focus. Det er et globalt aksjefond med nordisk fokus som kommer til å være åpent for investeringer hvert kvartal.
 
