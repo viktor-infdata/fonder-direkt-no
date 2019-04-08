@@ -4,6 +4,8 @@ title: 'Placera: bytter ut Japan-fond mot Europa-fond før høsten.'
 date: 2018-08-30T08:01:47.275Z
 sponsored: false
 featured: false
+tags:
+  - Placera
 ---
 OSLO (Fondene TDN Direkt) Sommeren har vært gunstig for fondssparere, med sterke børser tross geopolitisk uro. Placera velger før høsten inn Jupiter European Growth på sine liste over kjøpsanbefalinger, samtidig som Länsförsäkringar Japan Indexnära går ut.
 
