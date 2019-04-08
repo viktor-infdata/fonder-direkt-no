@@ -15,8 +15,6 @@ Fondet noterte en nedgang på 0,2 prosent i basisvalutaen i norske kroner i augu
 
 ![SKAGEN Insights beste og verste porteføljebidrag i august. (Kilde: SKAGEN Fondene)](/img/164.png)
 
-<span class="image-caption">SKAGEN Insights beste og verste porteføljebidrag i august. (Kilde: SKAGEN Fondene)</span>
-
 Tomas Johansson skriver at Armstrong Flooring overrasket markedet positivt i løpet av måneden med en sterk andrekvartalsrapport. Denne rapporten virker, ifølge forvateren, å markere et vendepunkt for selskapet etter at ledelsen har gjort alt riktig i sitt arbeid for p oppnå vekst og bedre marginer. Fondet rapporteres å ha økt sin posisjon i selskapet før dette og har blitt godt belønnet.
 
 På den negative siden var først og fremst Diebold Nixdorf og Thyssen Krupp. Når det gjelder Diebold Nixdorf skriver Tomas Johansson at aksjen ble tynget av at hedgefond tok korte posisjoner på spekulasjoner om at selskapets likviditet skulle ta slutt. Dette spørsmålet ble imidlertid ryddet av veien da Diebold Nixdorf sikret ny lånefinansiering, noe som dog ikke har fått aksjen til å hente seg inn igjen.
