@@ -4,6 +4,8 @@ title: 'SKAGEN Fondene: tilvekst alltid en komponent i verdiinvestering'
 date: 2018-08-24T07:59:16.142Z
 sponsored: true
 featured: false
+tags:
+  - Skagen
 ---
 Det meninger om hva verdiinvesteringer egentlig innebærer. Vanligvis assosieres verdiaksjer med lave multipler, men det går også å klassifisere for eksempel selskaper med visse underliggende relle eiendeler som verdiselskaper. SKAGEN Fondenes investeringsdirektør Alexandra Morris forklarer hvordan fondet resonerer rundt begrepet verdi.
 
