@@ -4,6 +4,8 @@ title: 'Jupiter Dynamic Bond: Justert ned kredittrisikoen'
 date: 2019-03-22T13:46:57.982Z
 sponsored: true
 featured: false
+tags:
+  - Jupiter
 ---
 (Fonder Direkt) Utviklingen i rentefondet Jupiter Dynamic Bond ble hovedsakelig drevet av høyrenteobligasjoner, australske statsobligasjoner og vekstmarkedsobligasjoner. Imidlertid er det blandede resultater fra verdens økonomier.
 
