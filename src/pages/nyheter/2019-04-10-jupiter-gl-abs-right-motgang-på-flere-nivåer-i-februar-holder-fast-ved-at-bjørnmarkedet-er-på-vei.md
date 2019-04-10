@@ -6,6 +6,8 @@ title: >-
 date: 2019-03-25T13:44:26.474Z
 sponsored: true
 featured: false
+tags:
+  - Jupiter
 ---
 (Fonder Direkt) I en relativt rolig måned med oppgang på aksjemarkedene var forholdene uventet utfordrende for aksjefondet Jupiter Global Absolute Return.
 
