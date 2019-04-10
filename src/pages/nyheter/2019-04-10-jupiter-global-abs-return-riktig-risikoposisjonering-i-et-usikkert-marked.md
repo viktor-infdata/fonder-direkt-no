@@ -1,11 +1,9 @@
 ---
 templateKey: blog-post
 title: 'Jupiter Global Abs Return: Riktig risikoposisjonering i et usikkert marked'
-date: 2019-02-07T15:32:14.315Z
+date: 2019-02-07T15:33:25.330Z
 sponsored: true
 featured: false
-tags:
-  - Jupiter
 ---
 Oslo (Fond Direkt) I løpet av det siste kvartalet i 2018 led store aksjemarkeder av tosifrede indeksfall. James Clunie, forvalter av long/short-fondet Jupiter Global Absolute Return, oppgir i en kvartalsrapport at uroen for en nedgang i global økonomisk aktivitet og en tilstramning av pengepolitikken i USA bidro til sentimentet.
 
@@ -19,8 +17,8 @@ Avkastning for Jupiter Global Absolute Return og referanseindeks (LIBOR 3 Month 
 
 Fond        +3,1        -1,1     +4,7        -0,3              
 
-Ref.-index   0,0        -0,4     +1,6        +0,4              
-```
+Ref.-index   0,0        -0,4     +1,6        +0,4            
+```  
 
 Når markedet falt i oktober hadde fondet en positiv avkastning, og i løpet av markedets innhenting i november falt fondet for så å styrke seg igjen i desember. Fondforvalteren sier at kvartalet har latt fondsteamet lære seg fondets totale risiko og posisjonering. Risikoposisjonen for fondet er oppgitt å være korrekt.
 
