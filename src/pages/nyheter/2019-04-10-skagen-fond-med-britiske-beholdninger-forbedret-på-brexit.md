@@ -4,6 +4,8 @@ title: 'Skagen: Fond med britiske beholdninger forbedret på Brexit'
 date: 2019-03-25T13:46:11.664Z
 sponsored: true
 featured: false
+tags:
+  - Skagen
 ---
 (Fonder Direkt) De to aksjefondene Skagen Global og Skagen Insight er godt rustet innenfor Brexit, til tross for eksponering mot Storbritannia. En av fordelene med å være verdiinvestorer er at man kan dra nytte av muligheter ved eventuell markedsturbulens.
 
