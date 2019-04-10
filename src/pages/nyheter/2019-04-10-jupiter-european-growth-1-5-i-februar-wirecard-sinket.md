@@ -4,6 +4,8 @@ title: 'Jupiter European Growth: +1,5% i februar, Wirecard sinket'
 date: 2019-03-25T13:45:36.445Z
 sponsored: true
 featured: false
+tags:
+  - Jupiter
 ---
 (Fonder Direkt) De europeiske aksjemarkedene fortsatte den brede oppgangen i februar, som begynte i begynnelsen av året. Til tross for uro knyttet til svakere økonomisk vekst fant markedene støtte fra Federal Reserve's duete kommentarer og positive utviklinger i handelsforhandlinger mellom USA og Kina.
 
