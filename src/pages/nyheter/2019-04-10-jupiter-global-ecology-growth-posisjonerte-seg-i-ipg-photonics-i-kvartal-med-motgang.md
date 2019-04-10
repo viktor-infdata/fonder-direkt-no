@@ -6,6 +6,8 @@ title: >-
 date: 2019-02-07T15:35:01.458Z
 sponsored: true
 featured: false
+tags:
+  - Jupiter
 ---
 Oslo (Fond Direkt) Det fjerde kvartalet var tøft for aksjemarkedene verden over. Etter en midlertidig opphenting i november falt prisene videre i desember som følge av en rekke uværsskyer, inkludert lavere økonomisk vekst, stans av kvantitative lettelser samt de pågående handelsspenningen mellom USA og Kina, skriver fondsforvalter Charlie Thomas.
 
