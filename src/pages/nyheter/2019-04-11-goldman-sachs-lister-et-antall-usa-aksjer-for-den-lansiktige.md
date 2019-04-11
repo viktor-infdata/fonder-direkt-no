@@ -4,6 +4,8 @@ title: 'Goldman Sachs: Lister et antall USA-aksjer for den lansiktige'
 date: 2019-01-08T15:25:45.085Z
 sponsored: false
 featured: false
+tags:
+  - Goldman Sachs
 ---
 Oslo (Fond Direkt) Amerikanske aksjer har fortsatt potensial, men forsiktighet er å anbefale på grunn av det volatile markedet.
 
