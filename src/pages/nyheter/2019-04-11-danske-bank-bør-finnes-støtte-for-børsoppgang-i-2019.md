@@ -4,6 +4,8 @@ title: 'Danske Bank: Bør finnes støtte for børsoppgang i 2019'
 date: 2019-04-08T14:27:09.403Z
 sponsored: true
 featured: false
+tags:
+  - Danske
 ---
 Oslo (Fond Direkt) Børsen stiger i 2019, tross økt markedsuro som følge av den seneste tidens turbulens.
 
