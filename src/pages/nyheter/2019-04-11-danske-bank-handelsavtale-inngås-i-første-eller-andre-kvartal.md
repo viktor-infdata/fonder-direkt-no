@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 'Danske Bank: Handelsavtale inngås i første eller andre kvartal'
-date: 2019-04-15T14:22:11.105Z
+date: 2018-11-11T15:22:11.105Z
 sponsored: true
 featured: false
 tags:
