@@ -1,32 +1,23 @@
 ---
 templateKey: blog-post
 title: 'Morningstar Equity Style Box: Registrerte endringer'
-date: 2018-10-05T11:26:12.045Z
+date: 2018-10-03T11:27:37.502Z
 sponsored: false
 featured: false
 tags:
   - Morningstar
   - Equity Style Box
 ---
-OSLO (Fondene TDN Direkt) Følgende fond har fått sin Morningstar Equity Style Box endret i henhold til tabellen nedenfor:
+OSLO (Fondene TDN Direkt) Følgende fond har fått sin Morningstar Equity Style Box endret ifølge tabellen nedenfor:
 
-```
-
-Fond                              Tidigare         Ny          
-
-Quesada Offensiv A                Mid growth       Large growth
-
-Aktiespararna Direktavkastning    Large value      Large blend 
-
-Aktiespararna Topp Sverige        Large blend      Large growth
-
-Granit Trend 50                   Mid blend        Mid growth  
-
-East Capital Emerging Asia A EUR  Large blend      Large growth
-
-Magna Eastern European C EUR Acc  Mid value        Large blend 
-
-East Capital Pension              Mid blend        Large blend 
-
-Peak Equity Alpha (A) SEK         Large value      Large blend
 ```
+Fond                                 Tidigare      Ny          
+Amundi Fds Eq Japan Value IJ-C       Large blend   Large value 
+DNB Grønt Norden                     Mid growth    Large growth
+Danske Invest Nordic A               Large blend   Large growth
+Schroder ISF Eur Value C Acc EUR     Large value   Mid value   
+Investec GSF European Eq A Inc USD   Large value   Large blend 
+Allianz Little Dragons A USD         Large growth  Large blend 
+```
+
+Det fremgår av en oppdatering i Morningstars database.
