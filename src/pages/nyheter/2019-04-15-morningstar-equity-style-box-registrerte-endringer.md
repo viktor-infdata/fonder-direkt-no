@@ -1,23 +1,22 @@
 ---
 templateKey: blog-post
-title: 'Morningstar Equity Style Box: Registrerte endringer'
+title: 'Swedbank: Fortsatt overvekt av aksjer i oktober'
 date: 2018-10-03T11:27:37.502Z
 sponsored: false
 featured: false
 tags:
-  - Morningstar
-  - Equity Style Box
+  - Swedbank
 ---
-OSLO (Fondene TDN Direkt) Følgende fond har fått sin Morningstar Equity Style Box endret ifølge tabellen nedenfor:
+OSLO (Fondene TDN Direkt) Swedbank gjør ingen allokeringsforandringer i sin seneste investeringsstrategi, hvilket innebærer en undervekt i renter, nøytralvekt i kreditter (foretaksobligasjoner) og overvekt i aksjer. Innen aksjer forblir USA Swedbanks favorittmarked, men overvekten har minsket noe til fordel for fremvoksende markeder, der forholdet mellom avkastning mot risiko nå anses som attraktiv.
 
-```
-Fond                                 Tidigare      Ny          
-Amundi Fds Eq Japan Value IJ-C       Large blend   Large value 
-DNB Grønt Norden                     Mid growth    Large growth
-Danske Invest Nordic A               Large blend   Large growth
-Schroder ISF Eur Value C Acc EUR     Large value   Mid value   
-Investec GSF European Eq A Inc USD   Large value   Large blend 
-Allianz Little Dragons A USD         Large growth  Large blend 
-```
 
-Det fremgår av en oppdatering i Morningstars database.
+
+Det fremgår av Swedbanks investeringsstrategi for oktober, der man peker på at den pågående handelsdisputten har gått inn i en mer intensiv fase, men at dette er noe markedet klarer å håndtere, samtidig som man forventer en sterk rapporteringssesong.
+
+
+
+Innen foretaksobligasjoner oppgis high yield (emittenter med dårligere kredittvurdering) har fått støtte at et positivt risikoklima den seneste måneden, med en generelt god utvikling for risikoeiendeler. Samtidig har høyere markedsrenter påvirket den totale avkastningen innen foretaksobligasjoner negativt, og mest ugustig har utviklingen vært innen investment grade, ifølge investeringsstrategien.
+
+
+
+"Vi beholder en forsiktig linje innen kreditt der vi foretrekker kreditter med bedre kredittvurdering. Disse tenderer mot å klare et miljø med markedsturbulens og uro bedre, hvilket også gir en bedre diversifisering i porteføljen", sier Swedbanks strateg Mattias Isakson.
