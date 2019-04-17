@@ -3,11 +3,11 @@ templateKey: blog-post
 title: >-
   Jupiter Global Absolute Return: Utfordrende første kvartal, tror strategi vil
   lønne seg
-date: 2019-04-17T13:13:06.811Z
+date: 2019-04-17T13:14:00.443Z
 sponsored: true
 featured: false
 tags:
-  - Jupiter
+  - Jupiter AM
 ---
 (Fonder Direkt) Hvis innhentingen i globale aksjemarkeder i første kvartal var et bear-markedsrally, var det utvilsomt skarpere enn forventet.
 
@@ -21,7 +21,7 @@ Som årsaker for oppgangen i aksjemarkedene oppgir James Clunie den amerikanske 
 
 
 
-Kompliserte rentesignaler
+**_Kompliserte rentesignaler_**
 
 
 
@@ -33,7 +33,7 @@ Forvalteren legger vekt på at obligasjonsmarkedets signaler er mer kompliserte 
 
 
 
-Førstekvartalets avkastningsskuffelse
+**_Førstekvartalets avkastningsskuffelse_**
 
 
 
@@ -49,7 +49,7 @@ James Clunie bemerker at det har vært lav interesse for hvilke priser markedet 
 
 
 
-Positiv utvikling i den lange boken
+**_Positiv utvikling i den lange boken_**
 
 
 
@@ -65,7 +65,7 @@ Ellers har fondet hatt nytte av lange posisjoner i de britiske børsnoterte aksj
 
 
 
-Øker korte posisjoner under rally, går long på fall dipper
+**_Øker korte posisjoner under rally, går long på fall dipper_**
 
 
 
