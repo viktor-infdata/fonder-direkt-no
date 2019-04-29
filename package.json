@@ -6,7 +6,7 @@
   "dependencies": {
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^2.2.1",
     "bulma": "^0.7.4",
-    "gatsby": "^2.3.31",
+    "gatsby": "^2.3.32",
     "gatsby-cli": "^2.5.12",
     "gatsby-image": "^2.0.40",
     "gatsby-plugin-catch-links": "^2.0.13",
@@ -35,7 +35,7 @@
     "lodash": "^4.17.11",
     "lodash-webpack-plugin": "^0.11.5",
     "netlify-cms": "2.9.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.12.0",
     "parcel-bundler": "^1.12.3",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
