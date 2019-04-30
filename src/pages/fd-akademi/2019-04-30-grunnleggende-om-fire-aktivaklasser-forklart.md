@@ -19,12 +19,9 @@ FD Akademi breaks down and explains the pros and cons of 4 main asset classes (c
 
 We aim at explaining how each asset class works, and how you may choose to use each one as part of your investment strategy long term and short term.
 
-Fonder Direkt: Aiming to Educate, Motivate and Inspire.\
-Please comment below if you have an questions or email us direct!
+Fonder Direkt: Aiming to Educate, Motivate and Inspire.
 
-
-
-
+---
 
 Lær om fire sentrale aktivaklasser: deres funksjoner, fordeler og ulemper, og hvordan de kan passe inn i en diversifisert portefølje. 
 
