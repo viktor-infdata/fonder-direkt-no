@@ -8,6 +8,7 @@ featured: true
 image: /img/thumbnail.png
 english: true
 tags:
+  - FD Akademi
   - Aktivaklasser
   - Kontanter
   - Obligasjoner
