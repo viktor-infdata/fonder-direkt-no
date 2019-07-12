@@ -1,7 +1,7 @@
 ---
 templateKey: video-post
 program: Fonder Direkt
-videoId: DYl9lexzU44&feature=youtu.be
+videoId: DYl9lexzU44
 title: >-
   Skagen Global – Forvalter Knut Gezelius om fondets andre kvartal og
   investeringsfilosofi
