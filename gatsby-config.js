@@ -186,7 +186,8 @@ module.exports = {
       resolve: "gatsby-plugin-netlify-cache",
       options: {
         extraDirsToCache: [
-          "public/static"
+          "public/static",
+          "public/img"
         ]
       }
     },
