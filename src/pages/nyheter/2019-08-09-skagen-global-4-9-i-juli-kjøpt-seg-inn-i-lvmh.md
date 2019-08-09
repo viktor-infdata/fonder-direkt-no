@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Skagen global:+4,9% i juli, kjøpt seg inn i LVMH'
+title: 'Skagen Global:+4,9% i juli, kjøpt seg inn i LVMH'
 date: 2019-08-09T15:18:21.706Z
 sponsored: true
 featured: false
