@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: 'UB Nordamerika REIT: -1,5% i december, ökat inom logistik & datacenter'
 date: 2020-01-13T10:55:40.048Z
-sponsored: false
+sponsored: true
 featured: false
 tags:
   - United Bankers AM
